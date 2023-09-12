@@ -34,7 +34,7 @@ const Navbar = (prop) => {
                   isClicked && "text-white lg:text-black"
                 } text-lg font-semibold dark:font-medium`}
               >
-                Ralphy Caraan
+                Ralph Albert Caraan
               </div>
               <span dangerouslySetInnerHTML={{ __html: svgCode }}></span>
             </div>
