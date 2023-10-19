@@ -139,3 +139,9 @@
 .contact-icons:hover svg {
   fill: #0098aa;
 }
+
+/* Icon SVG */
+
+.view-all:hover svg {
+  fill: #18181b;
+}

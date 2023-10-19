@@ -17,7 +17,7 @@ const Navbar = (prop) => {
   };
   return (
     <Fragment>
-      <nav className="flex items-center justify-between w-full h-20 pl-6 pr-6 text-base dark:text-gray-300 z-30 lg:pr-20">
+      <nav className="flex items-center justify-between w-full h-20 pl-6 pr-6 text-base dark:dark:text-white dark:bg-darkest z-30 lg:pr-20">
         {/* Logo and Name */}
         <div className="flex items-center justify-center space-x-0 h-24 z-50">
           <img

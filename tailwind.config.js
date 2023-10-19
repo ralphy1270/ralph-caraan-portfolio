@@ -16,6 +16,7 @@ module.exports = {
         light: '#fff',
         veryDarkBlue: '#1f242d',
         darkBlue: '#323946',
+        darkest: '#18181b', 
       },
       fontFamily: {
         bodyFont: ["Poppins", "sans-serif"],

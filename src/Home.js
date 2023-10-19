@@ -1,7 +1,14 @@
+import { Fragment } from "react";
 import Section from "./home/Section";
+import Projects from "./home/Projects";
 
 const Home = (prop) => {
-    return <Section  darkModeSwitch={prop.darkModeSwitch}/>;
-}
+  return (
+    <Fragment>
+      <Section darkModeSwitch={prop.darkModeSwitch} />
+      <Projects/>
+    </Fragment>
+  );
+};
 
 export default Home;

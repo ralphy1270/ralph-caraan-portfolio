@@ -13,7 +13,7 @@ const DarkMode = (prop) => {
         <svg
           id="theme-toggle-dark-icon"
           className={`${prop.darkModeSwitch ? "hidden" : "block"} w-5 h-5`}
-          fill="currentColor"
+          fill="#f59e0b"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -23,7 +23,7 @@ const DarkMode = (prop) => {
         <svg
           id="theme-toggle-light-icon"
           className={`${prop.darkModeSwitch ? "block" : "hidden"} w-5 h-5`}
-          fill="currentColor"
+          fill="#f59e0b"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
         >
