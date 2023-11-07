@@ -51,7 +51,7 @@ function App() {
       element: (
         <div className={`${isDarkModeOn && "dark "}`}>
           <div
-            className={`w-full h-auto  bg-light text-veryDarkBlue dark:bg-veryDarkBlue dark:text-light `}
+            className={`w-full h-auto  bg-light text-veryDarkBlue text-lg dark:bg-darkest dark:text-light`}
           >
             <RootLayout setDarkMode={DarkMode} darkModeSwitch={isDarkModeOn} />
           </div>
@@ -70,7 +70,7 @@ function App() {
   return (
     <div className={`${isDarkModeOn && "dark "}`}>
       <div
-        className={`w-full h-auto  bg-light text-veryDarkBlue dark:bg-veryDarkBlue dark:text-light `}
+        className={`w-full h-auto  bg-light text-veryDarkBlue dark:bg-veryDarkBlue`}
       >
         <RouterProvider router={router} />
       </div>

@@ -28,6 +28,14 @@
   @apply bg-gradient-to-r from-bluish to-lightBlue dark:text-transparent dark:bg-clip-text;
 }
 
+.tag-background-gradient-text {
+  @apply bg-gradient-to-r from-gray-100 to-white text-transparent bg-clip-text;
+}
+
+.tag-background-gradient {
+  @apply bg-gradient-to-r from-bluish to-lightBlue;
+}
+
 .invert-color {
   filter: brightness(0) invert(1) grayscale(1);
 }
@@ -143,5 +151,13 @@
 /* Icon SVG */
 
 .view-all:hover svg {
+  fill: #18181b;
+}
+
+.send-button svg {
+  transition: 75ms ease;
+}
+
+.send-button:hover svg {
   fill: #18181b;
 }
