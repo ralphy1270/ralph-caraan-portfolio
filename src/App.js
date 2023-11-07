@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./RootLayout";
 import Home from "./Home";
 import About from "./About";
-import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
 
@@ -51,7 +50,7 @@ function App() {
       element: (
         <div className={`${isDarkModeOn && "dark "}`}>
           <div
-            className={`w-full h-auto  bg-light text-veryDarkBlue text-lg dark:bg-darkest dark:text-light`}
+            className={`w-full h-auto  bg-light text-veryDarkBlue text-lg dark:bg-darkest dark:text-light font-medium`}
           >
             <RootLayout setDarkMode={DarkMode} darkModeSwitch={isDarkModeOn} />
           </div>
@@ -60,7 +59,6 @@ function App() {
       children: [
         { index: true, element: <Home darkModeSwitch={isDarkModeOn}/> },
         { path: 'about', element: <About /> },
-        { path: 'experience', element: <Experience /> },
         { path: 'projects', element: <Projects /> },
         { path: 'contact', element: <Contact /> },
       ],

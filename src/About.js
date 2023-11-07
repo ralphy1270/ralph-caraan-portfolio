@@ -15,9 +15,11 @@ import Tailwind from "./assets/images/about-page/tailwind.png";
 import Typescript from "./assets/images/about-page/typescript.png";
 
 const About = () => {
+  
+
   return (
     <Fragment>
-      <section className="grid grid-cols-12 gap-12 px-20 pt-20 pb-56 bg-gradient-to-b from-darkest to-veryDarkBlue">
+      <section  className="grid grid-cols-12 gap-12 px-20 pt-20 pb-56 bg-gradient-to-b from-white dark:from-darkest to-gray-200 dark:to-veryDarkBlue">
         <div className="col-span-12">
           <div className="text-8xl font-bold space-x-2 pb-10">About.</div>
           <div className="text-2xl font-bold space-x-2 pb-10">

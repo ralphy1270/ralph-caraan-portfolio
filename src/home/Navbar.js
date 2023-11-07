@@ -93,7 +93,7 @@ const Navbar = (prop) => {
               <div
                 className={`${
                   isClicked && "text-white lg:text-black"
-                } text-lg font-semibold dark:font-medium`}
+                } text-lg font-semibold`}
               >
                 Ralph Albert Caraan
               </div>
@@ -102,7 +102,7 @@ const Navbar = (prop) => {
             <div
               className={`${
                 isClicked && "text-white lg:text-black"
-              } text-normal font-medium`}
+              } font-semibold`}
             >
               Web Developer
             </div>

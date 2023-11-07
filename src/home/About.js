@@ -24,7 +24,7 @@ const About = (prop) => {
         </div>
         <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6 dark:bg-grayish px-7 md:px-20 pt-0 md:pt-14 pb-48">
           <div className="pr-6">
-            <div className="flex items-start font-medium dark:font-normal space-x-1 pt-6 lg:pt-0">
+            <div className="flex items-start space-x-1 pt-6 lg:pt-0">
               <div className="text-left px-2">
                 <p className="leading-loose">
                   <span className="text-gradient-highlighted font-bold text-xl">
@@ -58,7 +58,7 @@ const About = (prop) => {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-6">
+          <div className="grid grid-cols-1 gap-6 font-medium">
             <div className="flex items-start justify-between p-6 bg-gray-200 dark:bg-darkest rounded-md hover:cursor-pointer hover:brightness-95 dark:hover:bg-black/75 hover:scale-105 transition-all duration-300">
               <div className="flex flex-col items-start w-10/12 space-y-4">
                 <div className="text-gradient-highlighted text-xl font-bold">

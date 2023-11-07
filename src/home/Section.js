@@ -9,7 +9,7 @@ const Section = (prop) => {
       <section className="w-full dark:bg-darkest font-bodyFont">
         <div className="flex flex-col-reverse mx-14 lg:mx-20 pb-2 pt-10 lg:pt-8 items-center lg:items-start lg:justify-between lg:flex-row lg:pb-0">
           <div className="flex flex-col items-center text-center lg:text-left lg:items-start justify-center pt-4 mt-16 lg:pt-0 lg:w-1/2">
-            <div className="tag-gradient-highlighted text-veryDarkBlue font-bold text-base border-[1px] border-bluish uppercase max-w-fit px-3 lg:mb-4 rounded-full">
+            <div className="tag-gradient-highlighted text-veryDarkBlue font-bold text-base uppercase max-w-fit px-3 lg:mb-4 rounded-full">
               Web Developer
             </div>
             <div className="flex flex-col lg:mb-4">
@@ -30,7 +30,7 @@ const Section = (prop) => {
             {/* CV, Schedule and contacts */}
             <div className="flex flex-col font-titleFont">
               <div className="flex flex-col  space-y-4 md:flex-row md:space-x-4  md:space-y-0  my-4 md:my-0">
-                <a href={cv} target="_blank" rel="noopener noreferrer" className="text-lg py-3 px-8 dark:text-lightBlue text-darkest hover:text-darkest bg-gradient-to-r from-bluish to-lightBlue rounded-md font-medium hover:brightness-110">
+                <a href={cv} target="_blank" rel="noopener noreferrer" className="text-lg py-3 px-8 text-darkest hover:text-darkest bg-gradient-to-r from-bluish to-lightBlue rounded-md font-medium hover:brightness-110">
                   Download CV
                 </a>
                 <a

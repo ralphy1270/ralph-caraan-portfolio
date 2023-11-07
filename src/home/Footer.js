@@ -23,7 +23,7 @@ const Footer = () => {
               <p className="text-2xl md:text-4xl font-bold">
                 Let's work together on your next project
               </p>
-              <p className="mt-4 font-medium text-gray-200">
+              <p className="mt-4 font-medium">
                 I can set up a free consultation to discuss and bring your next
                 idea to life.
               </p>
