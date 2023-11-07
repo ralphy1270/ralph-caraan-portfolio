@@ -50,7 +50,7 @@ const Footer = () => {
               >
                 <path d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z"></path>
               </svg>
-              <a href="https://calendly.com/caraanralph/15min" target="_blank">Book a call</a>
+              <a href="https://calendly.com/caraanralph/15min" target="_blank" rel="noreferrer">Book a call</a>
             </button>
           </div>
           <div className="w-fill md:w-1/2">
@@ -58,7 +58,7 @@ const Footer = () => {
             I create websites for business software solutions and beyond, delivering tailored, efficient, and user-friendly digital experiences.
             </div>
             <div className="flex justify-center md:justify-end mt-8 space-x-3">
-              <a href="https://www.facebook.com/profile.php?id=100014631107203" target="_blank">
+              <a href="https://www.facebook.com/profile.php?id=100014631107203" target="_blank" rel="noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="27"
@@ -69,7 +69,7 @@ const Footer = () => {
                   <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path>
                 </svg>
               </a>
-              <a href="https://www.linkedin.com/in/ralph-caraan-9aba18143/" target="_blank">
+              <a href="https://www.linkedin.com/in/ralph-caraan-9aba18143/" target="_blank" rel="noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="27"
@@ -81,7 +81,7 @@ const Footer = () => {
                   <path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path>
                 </svg>
               </a>
-              <a href="https://github.com/ralphy1270" target="_blank">
+              <a href="https://github.com/ralphy1270" target="_blank" rel="noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="27"
