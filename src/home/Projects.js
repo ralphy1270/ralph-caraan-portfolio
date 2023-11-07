@@ -2,17 +2,18 @@ import { Fragment } from "react";
 import Ecommerce_One from "../assets/images/home-projects/Ecommerce-1.jpeg";
 import Ecommerce_Two from "../assets/images/home-projects/Ecommerce-2.webp";
 import Ecommerce_Three from "../assets/images/home-projects/Ecommerce-3.jpg";
+import { Link } from "react-router-dom";
 
 const Projects = (prop) => {
   return (
     <Fragment>
-      <section className="bg-darkest">
-        <div className="flex flex-col relative justify-start items-center pt-16 px-20 rounded-b-md bg-gradient-to-b from-veryDarkBlue to-darkest">
-          <div className="flex flex-col items-start space-y-2 md:flex-row w-full md:items-end justify-between">
-            <div className="text-8xl font-bold space-x-2">
+      <section className="dark:bg-gradient-to-b bg-gray-100 dark:from-veryDarkBlue dark:to-darkest">
+        <div className="flex flex-col relative justify-start items-center pt-16 px-7 md:px-20">
+          <div className="flex flex-col items-center md:items-end md:space-y-0 space-y-5 md:flex-row w-full justify-between">
+            <div className="text-5xl md:text-8xl font-bold space-x-2">
               <div>Recent Projects.</div>
             </div>
-            <div className="flex items-center view-all text-lg bg-white brightness-100 hover:brightness-90 text-darkest p-2 font-semibold rounded-md cursor-pointer duration-75">
+            <Link to="projects" className="flex items-center view-all text-lg hover:bg-gray-200 text-darkest p-2 font-semibold rounded-md cursor-pointer duration-75">
               <span>View all</span>
               <svg
                 className="-rotate-45"
@@ -24,45 +25,45 @@ const Projects = (prop) => {
               >
                 <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path>
               </svg>
-            </div>
+            </Link>
           </div>
-          <div className="grid grid-cols-12 gap-6 w-full pt-20">
-            <div className="group relative flex items-end col-span-7 w-full row-span-2 rounded-sm hover:cursor-pointer overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 w-full pt-20">
+            <div className="group relative flex items-end md:col-span-7 w-full h-[250px] md:h-auto row-span-2 rounded-sm hover:cursor-pointer overflow-hidden">
               <div
                 className="w-full h-full bg-cover group-hover:scale-110 duration-200 brightness-95"
                 style={{ backgroundImage: `url(${Ecommerce_One})` }}
               />
               <div className="absolute flex flex-col items-start justify-between top-0 w-full h-full">
-                <div className="text-lg font-bold py-1 px-2 bg-darkest/75 rounded-br-sm">
+                <div className="text-lg font-bold py-1 px-2 bg-darkest/75 rounded-br-sm text-white">
                   Samsung Products
                 </div>
               </div>
             </div>
-            <div className="group relative flex items-end col-span-5 w-full h-[250px] rounded-sm hover:cursor-pointer overflow-hidden">
+            <div className="group relative flex items-end md:col-span-5 w-full h-[250px] rounded-sm hover:cursor-pointer overflow-hidden">
               <div
                 className="w-full h-full bg-cover group-hover:scale-110 duration-200 brightness-95"
                 style={{ backgroundImage: `url(${Ecommerce_Two})` }}
               />
               <div className="absolute flex flex-col items-start justify-between top-0 w-full h-full">
-                <div className="text-lg font-bold py-1 px-2 bg-darkest/75 rounded-br-sm">
+                <div className="text-lg font-bold py-1 px-2 bg-darkest/75 rounded-br-sm text-white">
                   My Store Ecommerce
                 </div>
               </div>
             </div>
-            <div className="group relative flex items-end col-span-5 w-full h-[250px] rounded-sm hover:cursor-pointer overflow-hidden">
+            <div className="group relative flex items-end md:col-span-5 w-full h-[250px] rounded-sm hover:cursor-pointer overflow-hidden">
               <div
                 className="w-full h-full bg-cover group-hover:scale-110 duration-200 brightness-95"
                 style={{ backgroundImage: `url(${Ecommerce_Three})` }}
               />
               <div className="absolute flex flex-col items-start justify-between top-0 w-full h-full">
-                <div className="text-lg font-bold py-1 px-2 bg-darkest/75 rounded-br-sm">
+                <div className="text-lg font-bold py-1 px-2 bg-darkest/75 rounded-br-sm text-white">
                   Samsung Products
                 </div>
               </div>
             </div>
           </div>
-          <div className="w-full text-center tag-background-gradient-text text-4xl font-semibold border-t border-gray-600 font-serif mt-40"></div>
-          <div className="text-center tag-background-gradient-text text-4xl font-bold mt-16 mb-32">
+          <div className="w-full text-center tag-background-gradient-text text-4xl font-semibold border-t border-darkest dark:border-gray-600 font-serif mt-40"></div>
+          <div className="text-center tag-background-gradient-text text-2xl md:text-4xl font-bold mt-16 mb-32">
             <q>The only way to do great work is to love what you do.</q>
             <p>- Steve Jobs</p>
           </div>

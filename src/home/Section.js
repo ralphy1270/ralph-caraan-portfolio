@@ -30,7 +30,7 @@ const Section = (prop) => {
             {/* CV, Schedule and contacts */}
             <div className="flex flex-col font-titleFont">
               <div className="flex flex-col  space-y-4 md:flex-row md:space-x-4  md:space-y-0  my-4 md:my-0">
-                <a href={cv} target="_blank" rel="noopener noreferrer" className="text-lg py-3 px-8 border-2 border-bluish text-bluish dark:text-lightBlue hover:text-darkest dark:hover:text-darkest hover:bg-gradient-to-r hover:from-bluish hover:to-lightBlue rounded-md font-medium">
+                <a href={cv} target="_blank" rel="noopener noreferrer" className="text-lg py-3 px-8 dark:text-lightBlue text-darkest hover:text-darkest bg-gradient-to-r from-bluish to-lightBlue rounded-md font-medium hover:brightness-110">
                   Download CV
                 </a>
                 <a

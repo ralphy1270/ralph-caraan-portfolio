@@ -3,12 +3,12 @@ import { Fragment } from "react";
 const About = (prop) => {
   return (
     <Fragment>
-      <section className="bg-darkest grid grid-cols-2 pt-16 gap-6 text-white">
-        <div className="col-span-2 flex items-end justify-between text-8xl font-bold  px-20">
-          <div className="flex text-white text-8xl font-bold items-center space-x-2">
+      <section className="grid grid-cols-2 pt-16 gap-6 text-darkest dark:text-white">
+        <div className="col-span-2 flex flex-col md:flex-row items-center md:items-end justify-center md:justify-between space-y-5 md:space-y-0 text-8xl font-bold p-7 md:px-20">
+          <div className="flex text-5xl md:text-8xl font-bold items-center">
             <div>About Me.</div>
           </div>
-          <div className="flex items-center view-all text-lg bg-white brightness-100 hover:brightness-90 text-darkest p-2 font-semibold rounded-md cursor-pointer duration-75">
+          <div className="flex items-center view-all text-lg bg-white hover:bg-gray-200 text-darkest p-2 font-semibold rounded-md cursor-pointer duration-75">
             <span>Show more</span>
             <svg
               className="-rotate-45"
@@ -22,7 +22,7 @@ const About = (prop) => {
             </svg>
           </div>
         </div>
-        <div className="col-span-2 grid grid-cols-2 gap-6 bg-grayish px-20 pt-14 pb-48">
+        <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6 dark:bg-grayish px-7 md:px-20 pt-0 md:pt-14 pb-48">
           <div className="pr-6">
             <div className="flex items-start font-medium dark:font-normal space-x-1 pt-6 lg:pt-0">
               <div className="text-left px-2">
@@ -59,7 +59,7 @@ const About = (prop) => {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-6">
-            <div className="flex items-start justify-between p-6 bg-darkest rounded-md hover:cursor-pointer hover:bg-black/75 hover:scale-105 transition-all duration-300">
+            <div className="flex items-start justify-between p-6 bg-gray-200 dark:bg-darkest rounded-md hover:cursor-pointer hover:brightness-95 dark:hover:bg-black/75 hover:scale-105 transition-all duration-300">
               <div className="flex flex-col items-start w-10/12 space-y-4">
                 <div className="text-gradient-highlighted text-xl font-bold">
                   Design
@@ -82,7 +82,7 @@ const About = (prop) => {
                 </svg>
               </div>
             </div>
-            <div className="flex items-start justify-between p-6 bg-darkest rounded-md hover:cursor-pointer hover:bg-black/75 hover:scale-105 transition-all duration-300">
+            <div className="flex items-start justify-between p-6 bg-gray-200 dark:bg-darkest rounded-md hover:cursor-pointer hover:brightness-95 dark:hover:bg-black/75 hover:scale-105 transition-all duration-300">
               <div className="flex flex-col items-start w-10/12 space-y-4">
                 <div className="text-gradient-highlighted text-xl font-bold">
                   Responsive
@@ -105,7 +105,7 @@ const About = (prop) => {
                 </svg>
               </div>
             </div>
-            <div className="flex items-start justify-between p-6 bg-darkest rounded-md hover:cursor-pointer hover:bg-black/75 hover:scale-105 transition-all duration-300">
+            <div className="flex items-start justify-between p-6 bg-gray-200 dark:bg-darkest rounded-md hover:cursor-pointer hover:brightness-95 dark:hover:bg-black/75 hover:scale-105 transition-all duration-300">
               <div className="flex flex-col items-start w-10/12 space-y-4">
                 <div className="text-gradient-highlighted text-xl font-bold">
                   Fast loading

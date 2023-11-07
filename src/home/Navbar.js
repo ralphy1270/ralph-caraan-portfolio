@@ -1,3 +1,4 @@
+import ReactDOM from "react-dom";
 import { useState, Fragment } from "react";
 import { Link } from "react-router-dom";
 import DarkMode from "../js/DarkMode";
@@ -17,8 +18,8 @@ const Navbar = (prop) => {
   };
   return (
     <Fragment>
-      <div className="flex items-end justify-end h-7 lg:h-16 z-50 px-20">
-        <div className="hidden lg:flex lg:space-x-3">
+      <div className="flex items-end justify-end h-7 lg:h-16 z-50 px-7 lg:px-20">
+        <div className="flex space-x-3">
           <a
             href="https://www.facebook.com/profile.php?id=100014631107203"
             target="_blank"
@@ -37,7 +38,7 @@ const Navbar = (prop) => {
             </div>
           </a>
           <a
-            href="https://www.instagram.com/caraanralph/"
+            href="https://www.linkedin.com/in/ralph-caraan-9aba18143/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -55,7 +56,7 @@ const Navbar = (prop) => {
             </div>
           </a>
           <a
-            href="https://www.linkedin.com/in/ralph-caraan-9aba18143/"
+            href="https://github.com/ralphy1270"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -178,25 +179,28 @@ const Navbar = (prop) => {
         </div>
       </nav>
       {/* Mobile Menu */}
-      <div
-        id="menu"
-        className={`${
-          isClicked ? "flex" : "hidden"
-        } absolute top-0 bottom-0 left-0 flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black lg:hidden z-40`}
-      >
-        <Link to="/" className="hover:text-lightBlue">
-          Home
-        </Link>
-        <Link to="about" className="hover:text-lightBlue">
-          About
-        </Link>
-        <Link to="project" className="hover:text-lightBlue">
-          Projects
-        </Link>
-        <Link to="contact" className="hover:text-lightBlue">
-          Contact
-        </Link>
-      </div>
+      {ReactDOM.createPortal(
+        <div
+          id="menu"
+          className={`${
+            isClicked ? "flex" : "hidden"
+          } absolute top-0 bottom-0 left-0 flex-col self-end w-full h-full py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black lg:hidden z-40`}
+        >
+          <Link to="/" className="hover:text-lightBlue">
+            Home
+          </Link>
+          <Link to="about" className="hover:text-lightBlue">
+            About
+          </Link>
+          <Link to="project" className="hover:text-lightBlue">
+            Projects
+          </Link>
+          <Link to="contact" className="hover:text-lightBlue">
+            Contact
+          </Link>
+        </div>,
+        document.body
+      )}
     </Fragment>
   );
 };
