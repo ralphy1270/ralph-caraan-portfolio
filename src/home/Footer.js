@@ -53,8 +53,8 @@ const Footer = () => {
               <a href="https://calendly.com/caraanralph/15min" target="_blank" rel="noreferrer">Book a call</a>
             </button>
           </div>
-          <div className="w-fill md:w-1/2">
-            <div className="text-lg px-20">
+          <div className="w-full md:w-1/2">
+            <div className="text-lg px-7 md:px-20">
             I create websites for business software solutions and beyond, delivering tailored, efficient, and user-friendly digital experiences.
             </div>
             <div className="flex justify-center md:justify-end mt-8 space-x-3">
