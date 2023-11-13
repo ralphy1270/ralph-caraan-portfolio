@@ -18,7 +18,7 @@ const Footer = () => {
             ease: "easeInOut",
           }}
         >
-          <div className="flex flex-col space-y-5 md:space-y-0 text-center md:text-left justify-start items-center md:flex-row md:items-center md:justify-around">
+          <div className="flex flex-col space-y-5 md:space-y-0 text-left justify-start items-center md:flex-row md:items-center md:justify-around">
             <div className="md:w-8/12 w-full">
               <p className="text-2xl md:text-4xl font-bold">
                 Let's work together on your next project

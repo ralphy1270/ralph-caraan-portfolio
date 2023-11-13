@@ -55,41 +55,41 @@ const About = () => {
           <div className="my-8 max-w-max px-3 text-darkest font-semibold tag-background-gradient rounded-sm">
             Technology Stack
           </div>
-          <div className="grid grid-cols-4 lg:grid-cols-6 gap-4 md:gap-5 mx-auto md:mx-0">
-            <div className="bg-white rounded-md w-24 p-2 flex items-center justify-center">
+          <div className="grid grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-5 px-auto lg:px-0 w-full">
+            <div className="bg-white rounded-md p-2 flex items-center justify-center">
               <img src={ReactJS} alt="ReactJS" />
             </div>
-            <div className="bg-white rounded-md w-24 p-2 flex items-center justify-center">
+            <div className="bg-white rounded-md p-2 flex items-center justify-center">
               <img src={NextJS} alt="NextJS" />
             </div>
-            <div className="bg-white rounded-md w-24 p-2 align-center flex items-center justify-center">
+            <div className="bg-white rounded-md p-2 align-center flex items-center justify-center">
               <img src={Firebase} alt="Firebase" />
             </div>
-            <div className="bg-white rounded-md w-24 p-2 flex items-center justify-center">
+            <div className="bg-white rounded-md p-2 flex items-center justify-center">
               <img src={MongoDB} alt="MongoDB" />
             </div>
-            <div className="bg-white rounded-md w-24 p-2 flex items-center justify-center">
+            <div className="bg-white rounded-md p-2 flex items-center justify-center">
               <img src={Express} alt="Express" />
             </div>
-            <div className="bg-white rounded-md w-24 p-2 flex items-center justify-center">
+            <div className="bg-white rounded-md p-2 flex items-center justify-center">
               <img src={NodeJS} alt="NodeJS" />
             </div>
-            <div className="bg-white rounded-md w-24 p-2 flex items-center justify-center">
+            <div className="bg-white rounded-md p-2 flex items-center justify-center">
               <img src={Tailwind} alt="Tailwind" />
             </div>
-            <div className="bg-white rounded-md w-24 p-2 flex items-center justify-center">
+            <div className="bg-white rounded-md p-2 flex items-center justify-center">
               <img src={Typescript} alt="TypeScript" />
             </div>
-            <div className="bg-white rounded-md w-24 p-2 flex items-center justify-center">
+            <div className="bg-white rounded-md p-2 flex items-center justify-center">
               <img src={PHP} alt="PHP" />
             </div>
-            <div className="bg-white rounded-md w-24 p-2 flex items-center justify-center">
+            <div className="bg-white rounded-md p-2 flex items-center justify-center">
               <img src={MySQL} alt="MySQL" />
             </div>
-            <div className="bg-white rounded-md w-24 p-2 flex items-center justify-center">
+            <div className="bg-white rounded-md p-2 flex items-center justify-center">
               <img src={Bootstrap} alt="BootStrap" />
             </div>
-            <div className="bg-white rounded-md w-24 p-2 flex items-center justify-center">
+            <div className="bg-white rounded-md p-2 flex items-center justify-center">
               <img src={Figma} alt="Figma" />
             </div>
           </div>

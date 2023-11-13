@@ -171,6 +171,11 @@
   @apply bg-gradient-to-r from-darkBlue dark:from-bluish to-bluish dark:to-lightBlue text-transparent bg-clip-text;
 }
 
+.grid-center {
+  display: grid;
+  justify-content: center;
+}
+
 @media(max-width: 768px) {
   .reverse-card {
     display: flex;
