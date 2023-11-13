@@ -59,13 +59,13 @@ const Contact = () => {
   
   return (
     <Fragment>
-      <section className="px-20 pt-20 pb-56">
-        <div className="text-8xl font-bold pb-10">Contact.</div>
-        <div className="grid grid-cols-12 text-2xl font-bold space-x-2 pb-20">
-          <div className="col-span-7">
+      <section className="px-7 md:px-20 pt-20 pb-56">
+        <div className="text-5xl md:text-8xl font-bold pb-10 md:text-left text-center">Contact.</div>
+        <div className="grid grid-cols-1 gap-5 md:gap-0 md:grid-cols-12 text-2xl font-bold md:space-x-2 pb-20">
+          <div className="md:col-span-7">
             Let's Connect! Feel free to reach out for inquiries.
           </div>
-          <div className="col-span-5 text-base">
+          <div className="md:col-span-5 text-base">
             Don't hesitate to send me an email or{" "}
             <a
               className="underline decoration-solid underline-offset-4 decoration-4"
@@ -78,7 +78,7 @@ const Contact = () => {
             a consultation.
           </div>
         </div>
-        <div className="grid grid-cols-12 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
           <div className="col-span-7">
             <form ref={form} onSubmit={sendEmail}>
               <div className="flex flex-col items-start justify-around space-y-1 mb-5">
@@ -86,7 +86,7 @@ const Contact = () => {
                   Name:
                 </label>
                 <input
-                  className="px-5 py-2 w-full rounded-sm bg-[#27272a] focus:outline-none focus:brightness-125"
+                  className="px-5 py-2 w-full rounded-sm dark:bg-[#27272a] border border-darkest focus:outline-none focus:brightness-125"
                   type="text"
                   id="from_name"
                   name="from_name"
@@ -101,7 +101,7 @@ const Contact = () => {
                   Subject:
                 </label>
                 <input
-                  className="px-5 py-2 w-full rounded-sm bg-[#27272a] focus:outline-none focus:brightness-125"
+                  className="px-5 py-2 w-full rounded-sm dark:bg-[#27272a] border border-darkest focus:outline-none focus:brightness-125"
                   type="text"
                   id="subject"
                   name="subject"
@@ -116,7 +116,7 @@ const Contact = () => {
                   Email:
                 </label>
                 <input
-                  className="px-5 py-2 w-full rounded-sm bg-[#27272a] focus:outline-none focus:brightness-125"
+                  className="px-5 py-2 w-full rounded-sm dark:bg-[#27272a] border border-darkest focus:outline-none focus:brightness-125"
                   type="email"
                   id="email_id"
                   name="email_id"
@@ -131,7 +131,7 @@ const Contact = () => {
                   Message:
                 </label>
                 <textarea
-                  className="px-5 py-2 w-full rounded-sm bg-[#27272a] focus:outline-none focus:brightness-125 h-32"
+                  className="px-5 py-2 w-full rounded-sm dark:bg-[#27272a] border border-darkest focus:outline-none focus:brightness-125 h-32"
                   type="text"
                   id="message"
                   name="message"

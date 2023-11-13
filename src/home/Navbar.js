@@ -184,7 +184,7 @@ const Navbar = (prop) => {
           id="menu"
           className={`${
             isClicked ? "flex" : "hidden"
-          } absolute top-0 bottom-0 left-0 flex-col self-end w-full h-full py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black lg:hidden z-40`}
+          } absolute top-0 bottom-0 left-0 flex-col self-end w-full h-full py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-darkest/90 lg:hidden z-40`}
         >
           <Link to="/" className="hover:text-lightBlue">
             Home
@@ -192,12 +192,18 @@ const Navbar = (prop) => {
           <Link to="about" className="hover:text-lightBlue">
             About
           </Link>
-          <Link to="project" className="hover:text-lightBlue">
+          <Link to="projects" className="hover:text-lightBlue">
             Projects
           </Link>
           <Link to="contact" className="hover:text-lightBlue">
             Contact
           </Link>
+          <div className="max-w-max">
+            <DarkMode
+              clickedDarkMode={prop.setDarkMode}
+              darkModeSwitch={prop.darkModeSwitch}
+            />
+          </div>
         </div>,
         document.body
       )}

@@ -1,15 +1,16 @@
 import { Fragment } from "react";
 import ralph from "../assets/images/ralph caraan.png";
 import cv from "../assets/files/Ralph Caraan CV Resume.pdf";
+import Typewriter from "typewriter-effect";
 
 const Section = (prop) => {
   return (
     <Fragment>
       {/* Introduction */}
-      <section className="w-full dark:bg-darkest font-bodyFont">
-        <div className="flex flex-col-reverse mx-14 lg:mx-20 pb-2 pt-10 lg:pt-8 items-center lg:items-start lg:justify-between lg:flex-row lg:pb-0">
+      <section className="w-full dark:bg-darkest font-bodyFont mb-10 lg:mb-0">
+        <div className="flex flex-col-reverse mx-7 md:space-y-0 space-y-10 md:mx-14 lg:mx-20 pb-2 pt-10 lg:pt-8 items-center lg:items-start lg:justify-between lg:flex-row lg:pb-0">
           <div className="flex flex-col items-center text-center lg:text-left lg:items-start justify-center pt-4 mt-16 lg:pt-0 lg:w-1/2">
-            <div className="tag-gradient-highlighted text-veryDarkBlue font-bold text-base uppercase max-w-fit px-3 lg:mb-4 rounded-full">
+            <div className="tag-gradient-highlighted text-veryDarkBlue font-bold text-base uppercase max-w-fit px-3 border border-lightBlue lg:mb-4 rounded-full">
               Web Developer
             </div>
             <div className="flex flex-col lg:mb-4">
@@ -17,20 +18,33 @@ const Section = (prop) => {
                 <span className="text-gradient-highlighted">Ralph </span>
                 Albert Caraan
               </div>
-              <div className="text-2xl lg:text-4xl font-semibold">
-                Bringing your business to{" "}
-                <span className="text-gradient-highlighted font-semibold">
-                  web.
-                </span>
-              </div>
+              <Typewriter
+                options={{
+                  strings: [
+                    `<span class="slogan">Bringing your business to <span class=slogan-highlighted text-gradient-highlighted> web.</span><span>`,
+                  ],
+                  autoStart: true,
+                  typeSpeed: 100,
+                  deleteSpeed: 10,
+                  delaySpeed: 3000,
+                  loop: true,
+                  cursor: `<span class="slogan-highlighted">|</span>`,
+                }}
+              />
             </div>
-            <div className="lg:mb-14 lg:text-2xl"> 
-                <span className="font-semibold">A Web Developer</span>{" "} based in Laguna, Philippines.
+            <div className="lg:mb-14 lg:text-2xl mb-5">
+              <span className="font-semibold">A Web Developer</span> based in
+              Laguna, Philippines.
             </div>
             {/* CV, Schedule and contacts */}
             <div className="flex flex-col font-titleFont">
               <div className="flex flex-col  space-y-4 md:flex-row md:space-x-4  md:space-y-0  my-4 md:my-0">
-                <a href={cv} target="_blank" rel="noopener noreferrer" className="text-lg py-3 px-8 text-darkest hover:text-darkest bg-gradient-to-r from-bluish to-lightBlue rounded-md font-medium hover:brightness-110">
+                <a
+                  href={cv}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-lg py-3 px-8 text-darkest hover:text-darkest bg-gradient-to-r from-bluish to-lightBlue rounded-md font-medium hover:brightness-110"
+                >
                   Download CV
                 </a>
                 <a

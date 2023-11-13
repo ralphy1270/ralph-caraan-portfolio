@@ -1,15 +1,16 @@
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 const About = (prop) => {
   return (
     <Fragment>
       <section className="grid grid-cols-2 pt-16 gap-6 text-darkest dark:text-white">
-        <div className=" text-center col-span-2 flex flex-col md:flex-row items-center md:items-end justify-center md:justify-between space-y-5 md:space-y-0 text-8xl font-bold p-7 md:px-20">
+        <div className=" text-center col-span-2 flex flex-col lg:flex-row items-center lg:items-end justify-center lg:justify-between space-y-5 lg:space-y-0 text-8xl font-bold p-7 md:px-20">
           <div className="flex text-5xl md:text-8xl font-bold items-center">
             <div>About Me.</div>
           </div>
           <div className="flex items-center view-all text-lg bg-white hover:bg-gray-200 text-darkest p-2 font-semibold rounded-md cursor-pointer duration-75">
-            <span>Show more</span>
+            <Link to="/about">Show more</Link>
             <svg
               className="-rotate-45"
               xmlns="http://www.w3.org/2000/svg"

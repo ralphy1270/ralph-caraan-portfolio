@@ -98,7 +98,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #38444d;
+  @apply bg-[#38444d]/25;
 }
 
 /* Handle */
@@ -160,4 +160,20 @@
 
 .send-button:hover svg {
   fill: #18181b;
+}
+
+.slogan {
+  @apply text-2xl lg:text-4xl font-semibold;
+}
+
+.slogan-highlighted {
+  @apply text-2xl lg:text-4xl font-semibold;
+  @apply bg-gradient-to-r from-darkBlue dark:from-bluish to-bluish dark:to-lightBlue text-transparent bg-clip-text;
+}
+
+@media(max-width: 768px) {
+  .reverse-card {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

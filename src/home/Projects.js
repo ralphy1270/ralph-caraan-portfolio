@@ -9,11 +9,14 @@ const Projects = (prop) => {
     <Fragment>
       <section className="dark:bg-gradient-to-b bg-gray-100 dark:from-veryDarkBlue dark:to-darkest">
         <div className="flex flex-col relative justify-start items-center pt-16 px-7 md:px-20">
-          <div className="flex flex-col text-center items-center md:items-end md:space-y-0 space-y-5 md:flex-row w-full justify-between">
+          <div className="flex flex-col text-center items-center lg:items-end lg:space-y-0 space-y-5 lg:flex-row w-full justify-between">
             <div className="text-5xl md:text-8xl font-bold space-x-2">
               <div>Recent Projects.</div>
             </div>
-            <Link to="projects" className="flex items-center view-all text-lg hover:bg-gray-200 text-darkest p-2 font-semibold rounded-md cursor-pointer duration-75">
+            <Link
+              to="projects"
+              className="flex items-center view-all text-lg dark:bg-white dark:hover:bg-gray-200 hover:bg-gray-200 text-darkest p-2 font-semibold rounded-md cursor-pointer duration-75"
+            >
               <span>View all</span>
               <svg
                 className="-rotate-45"
