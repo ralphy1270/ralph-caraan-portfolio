@@ -5,6 +5,7 @@ import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Error from "./Error";
 
 function App() {
   const [isDarkModeOn, setIsDarkModeOn] = useState(false);
@@ -56,6 +57,7 @@ function App() {
           </div>
         </div>
       ),
+      errorElement: <Error/>,
       children: [
         { index: true, element: <Home darkModeSwitch={isDarkModeOn}/> },
         { path: 'about', element: <About /> },
