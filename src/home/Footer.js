@@ -29,9 +29,9 @@ const Footer = () => {
               </p>
             </div>
             <div className="flex md:w-4/12 w-full">
-              <div className="w-fit py-2 px-6 font-medium bg-gradient-to-r from-[#004455] via-[#006677] to-[#004455] flex items-center mx-auto shadow-2xl shadow-[#004455] rounded-sm cursor-pointer hover:brightness-90">
+              <Link to="/contact" className="w-fit py-2 px-6 font-medium bg-gradient-to-r from-[#004455] via-[#006677] to-[#004455] flex items-center mx-auto shadow-2xl shadow-[#004455] rounded-sm cursor-pointer hover:brightness-90">
                 Contact
-              </div>
+              </Link>
             </div>
           </div>
         </motion.div>
