@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { Helmet } from "react-helmet";
 import Footer from "./home/Footer";
 
 import Bootstrap from "./assets/images/about-page/bootstrap.png";
@@ -15,13 +16,21 @@ import Tailwind from "./assets/images/about-page/tailwind.png";
 import Typescript from "./assets/images/about-page/typescript.png";
 
 const About = () => {
-  
-
   return (
     <Fragment>
-      <section  className="grid grid-cols-1 md:grid-cols-12 gap-12 px-7 md:px-20 pt-20 pb-56 bg-gradient-to-b from-white dark:from-darkest to-gray-200 dark:to-veryDarkBlue">
+      <Helmet>
+        <title>About | Ralph Albert Caraan Portfolio</title>
+        <meta
+          name="description"
+          content="Hi, I'm Ralph Albert Caraan! I'm a web developer specializing in MERN, NextJS, and
+              Firebase, creating dynamic and reliable online solutions."
+        />
+      </Helmet>
+      <section className="grid grid-cols-1 md:grid-cols-12 gap-12 px-7 md:px-20 pt-20 pb-56 bg-gradient-to-b from-white dark:from-darkest to-gray-200 dark:to-veryDarkBlue">
         <div className="md:col-span-12">
-          <div className="text-5xl md:text-8xl text-center md:text-left font-bold space-x-2 pb-10">About.</div>
+          <div className="text-5xl md:text-8xl text-center md:text-left font-bold space-x-2 pb-10">
+            About.
+          </div>
           <div className="text-2xl font-bold space-x-2 pb-10">
             <div>
               Hello! I'm a web developer specializing in MERN, NextJS, and

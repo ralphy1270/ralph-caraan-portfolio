@@ -1,31 +1,37 @@
 import { Fragment, useState } from "react";
 import React, { useRef } from "react";
+import { Helmet } from "react-helmet";
 import emailjs from "@emailjs/browser";
 import Footer from "./home/Footer";
 
 const Contact = () => {
   const form = useRef();
-  const [email,setEmail] = useState("");
-  const [subject,setSubject] = useState("");
-  const [message,setMessage] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
   const [name, setName] = useState("");
   const [isClicked, setIsClicked] = useState("");
 
   const nameHandler = (event) => {
     setName(event.target.value);
-  } 
+  };
   const subjectHandler = (event) => {
     setSubject(event.target.value);
-  }
+  };
   const emailHandler = (event) => {
     setEmail(event.target.value);
-  }
+  };
   const messageHandler = (event) => {
     setMessage(event.target.value);
-  }
+  };
   const sendEmail = (e) => {
     e.preventDefault();
-    if (name.trim() === "" || subject.trim() === "" || email.trim() === "" || message.trim() === "") {
+    if (
+      name.trim() === "" ||
+      subject.trim() === "" ||
+      email.trim() === "" ||
+      message.trim() === ""
+    ) {
       setIsClicked(true);
       setIsClicked(false);
       alert("Please fill all the inputs!");
@@ -51,16 +57,25 @@ const Contact = () => {
           );
         }
       );
-      setEmail("");
-      setName("");
-      setMessage("");
-      setSubject("");
+    setEmail("");
+    setName("");
+    setMessage("");
+    setSubject("");
   };
-  
+
   return (
     <Fragment>
+      <Helmet>
+        <title>Contact | Ralph Albert Caraan Portfolio</title>
+        <meta
+          name="description"
+          content="Hi, I'm Ralph Albert Caraan!. Let's Connect! Feel free to reach out for inquiries. Don't hesitate to send me an email or schedule a consultation."
+        />
+      </Helmet>
       <section className="px-7 md:px-20 pt-20 pb-56">
-        <div className="text-5xl md:text-8xl font-bold pb-10 md:text-left text-center">Contact.</div>
+        <div className="text-5xl md:text-8xl font-bold pb-10 md:text-left text-center">
+          Contact.
+        </div>
         <div className="grid grid-cols-1 gap-5 md:gap-0 md:grid-cols-12 text-2xl font-bold md:space-x-2 pb-20">
           <div className="md:col-span-7">
             Let's Connect! Feel free to reach out for inquiries.

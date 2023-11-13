@@ -1,12 +1,22 @@
 import { Fragment } from "react";
+import { Helmet } from "react-helmet";
 import Footer from "./home/Footer";
 import Ecommerce_One from "./assets/images/home-projects/Ecommerce-1.jpeg";
 
 const Projects = () => {
   return (
     <Fragment>
+      <Helmet>
+        <title>Projects | Ralph Albert Caraan Portfolio</title>
+        <meta
+          name="description"
+          content="Hi, I'm Ralph Albert Caraan!. Discover my latest project, explore the fusion of design and codes."
+        />
+      </Helmet>
       <section className="px-7 lg:px-20 pt-20 pb-56">
-        <div className="text-5xl md:text-8xl font-bold pb-10 text-center md:text-left">Projects.</div>
+        <div className="text-5xl md:text-8xl font-bold pb-10 text-center md:text-left">
+          Projects.
+        </div>
         <div className="text-2xl font-bold space-x-2 pb-20">
           <div>
             Discover my latest project, explore the fusion of design and codes.
@@ -18,7 +28,9 @@ const Projects = () => {
             <img src={Ecommerce_One} alt="Project-1" />
           </div>
           <div className="flex flex-col items-start justify-center md:px-7 text-base">
-            <div className="text-2xl font-bold min-h-min mt-5 md:mt-0">Ingredient Savvy</div>
+            <div className="text-2xl font-bold min-h-min mt-5 md:mt-0">
+              Ingredient Savvy
+            </div>
             <div className="flex flex-wrap my-2 items-start md:justify-start">
               <span className="my-1 mr-2 px-3 max-w-max uppercase rounded-full tag-background-gradient text-darkest font-semibold">
                 react
@@ -72,7 +84,9 @@ const Projects = () => {
         {/* Project Two */}
         <div className="reverse-card grid grid-cols-1 md:grid-cols-2 mb-10 lg:mb-0">
           <div className="flex flex-col items-start justify-center p-0 md:px-7 text-base">
-            <div className="text-2xl font-bold min-h-min mt-5 md:mt-0">Ingredient Savvy</div>
+            <div className="text-2xl font-bold min-h-min mt-5 md:mt-0">
+              Ingredient Savvy
+            </div>
             <div className="flex flex-wrap my-2 items-start justify-start">
               <span className="my-1 mr-2 px-3 max-w-max uppercase rounded-full tag-background-gradient text-darkest font-semibold">
                 react
@@ -132,7 +146,9 @@ const Projects = () => {
             <img src={Ecommerce_One} alt="Project-1" />
           </div>
           <div className="flex flex-col items-start justify-center px-0 md:px-7 text-base">
-            <div className="text-2xl font-bold min-h-min mt-5 md:mt-0">Ingredient Savvy</div>
+            <div className="text-2xl font-bold min-h-min mt-5 md:mt-0">
+              Ingredient Savvy
+            </div>
             <div className="flex flex-wrap my-2 items-start justify-start">
               <span className="my-1 mr-2 px-3 max-w-max uppercase rounded-full tag-background-gradient text-darkest font-semibold">
                 react
