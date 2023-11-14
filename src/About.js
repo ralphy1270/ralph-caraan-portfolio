@@ -31,7 +31,7 @@ const About = () => {
           <div className="text-5xl md:text-8xl text-center md:text-left font-bold space-x-2 pb-10">
             About.
           </div>
-          <div className="text-2xl font-bold space-x-2 pb-5">
+          <div className="text-2xl font-bold space-x-2 mb-5">
             <div>
               Hello! I'm a web developer specializing in MERN, NextJS, and
               Firebase, creating dynamic and reliable online solutions.
@@ -146,7 +146,7 @@ const About = () => {
           <div className="text-center md:text-left text-5xl md:text-8xl font-bold md:space-x-2 mb-10 mt-20">
             Experience.
           </div>
-          <div className="text-2xl font-bold space-x-2 pb-5">
+          <div className="text-2xl font-bold space-x-2 md:mb-12">
             <div>
               Take a journey through my professional experience, where I've
               honed my skills and passion for web development.

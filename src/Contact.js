@@ -76,7 +76,7 @@ const Contact = () => {
         <div className="text-5xl md:text-8xl font-bold pb-10 md:text-left text-center">
           Contact.
         </div>
-        <div className="grid grid-cols-1 gap-5 md:gap-0 md:grid-cols-12 text-2xl font-bold md:space-x-2 pb-5">
+        <div className="grid grid-cols-1 gap-5 md:gap-0 md:grid-cols-12 text-2xl font-bold md:space-x-2 mb-12">
           <div className="md:col-span-7">
             Let's Connect! Feel free to reach out for inquiries.
           </div>
