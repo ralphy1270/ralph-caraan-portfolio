@@ -105,7 +105,7 @@ const Footer = () => {
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contacts</Link>
           </nav>
-          <div className="flex justify-center md:justify-end md:py-10 brightness-75">
+          <div className="flex justify-center text-center md:text-left md:justify-end md:py-10 brightness-75">
             @ 2023 Ralph Albert Caraan. All rights reserved.
           </div>
         </div>
