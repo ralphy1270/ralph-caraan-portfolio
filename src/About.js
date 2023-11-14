@@ -122,19 +122,19 @@ const About = () => {
             Social Links
           </div>
           <div className="flex flex-col space-y-4 items-start">
-            <a href="https://www.facebook.com/profile.php?id=100014631107203">
+            <a href="https://www.facebook.com/profile.php?id=100014631107203" target="_blank" rel="noreferrer">
               <span className="flex justify-center space-x-3">
                 <p>&rarr;</p>
                 <p>Facebook</p>
               </span>
             </a>
-            <a href="https://www.linkedin.com/in/ralph-caraan-9aba18143/">
+            <a href="https://www.linkedin.com/in/ralph-caraan-9aba18143/" target="_blank" rel="noreferrer">
               <span className="flex justify-center space-x-3">
                 <p>&rarr;</p>
                 <p>LinkedIn</p>
               </span>
             </a>
-            <a href="https://github.com/ralphy1270">
+            <a href="https://github.com/ralphy1270" target="_blank" rel="noreferrer">
               <span className="flex justify-center space-x-3">
                 <p>&rarr;</p>
                 <p>Github</p>
