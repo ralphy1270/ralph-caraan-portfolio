@@ -17,7 +17,7 @@ const Projects = () => {
         <div className="text-5xl md:text-8xl font-bold pb-10 text-center md:text-left">
           Projects.
         </div>
-        <div className="text-2xl font-bold space-x-2 pb-20">
+        <div className="text-2xl font-bold space-x-2 pb-5">
           <div>
             Discover my latest project, explore the fusion of design and codes.
           </div>
