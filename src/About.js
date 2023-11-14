@@ -128,13 +128,13 @@ const About = () => {
                 <p>Facebook</p>
               </span>
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100014631107203">
+            <a href="https://www.linkedin.com/in/ralph-caraan-9aba18143/">
               <span className="flex justify-center space-x-3">
                 <p>&rarr;</p>
                 <p>LinkedIn</p>
               </span>
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100014631107203">
+            <a href="https://github.com/ralphy1270">
               <span className="flex justify-center space-x-3">
                 <p>&rarr;</p>
                 <p>Github</p>
