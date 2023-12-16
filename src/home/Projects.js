@@ -1,6 +1,6 @@
 import { Fragment } from "react";
-import Ecommerce_One from "../assets/images/home-projects/Ecommerce-1.jpeg";
-import Ecommerce_Two from "../assets/images/home-projects/Ecommerce-2.webp";
+import Ecommerce_One from "../assets/images/home-projects/Ecommerce-1.jpg";
+import Ecommerce_Two from "../assets/images/home-projects/Ecommerce-2.jpg";
 import Ecommerce_Three from "../assets/images/home-projects/Ecommerce-3.jpg";
 import { Link } from "react-router-dom";
 
@@ -38,7 +38,7 @@ const Projects = (prop) => {
               />
               <div className="absolute flex flex-col items-start justify-between top-0 w-full h-full">
                 <div className="text-lg font-bold py-1 px-2 bg-darkest/75 rounded-br-sm text-white">
-                  Samsung Products
+                  Project coming soon!
                 </div>
               </div>
             </div>
@@ -49,7 +49,7 @@ const Projects = (prop) => {
               />
               <div className="absolute flex flex-col items-start justify-between top-0 w-full h-full">
                 <div className="text-lg font-bold py-1 px-2 bg-darkest/75 rounded-br-sm text-white">
-                  My Store Ecommerce
+                  Project coming soon!
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ const Projects = (prop) => {
               />
               <div className="absolute flex flex-col items-start justify-between top-0 w-full h-full">
                 <div className="text-lg font-bold py-1 px-2 bg-darkest/75 rounded-br-sm text-white">
-                  Samsung Products
+                  Project coming soon!
                 </div>
               </div>
             </div>

@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import Footer from "./home/Footer";
-import Ecommerce_One from "./assets/images/home-projects/Ecommerce-1.jpeg";
+import Ecommerce_One from "./assets/images/home-projects/Ecommerce-1.jpg";
 
 const Projects = () => {
   return (
@@ -85,7 +85,7 @@ const Projects = () => {
         <div className="reverse-card grid grid-cols-1 md:grid-cols-2 mb-10 lg:mb-0">
           <div className="flex flex-col items-start justify-center p-0 md:px-7 text-base">
             <div className="text-2xl font-bold min-h-min mt-5 md:mt-0">
-              Ingredient Savvy
+              Project coming soon!
             </div>
             <div className="flex flex-wrap my-2 items-start justify-start">
               <span className="my-1 mr-2 px-3 max-w-max uppercase rounded-full tag-background-gradient text-darkest font-semibold">
@@ -109,14 +109,10 @@ const Projects = () => {
             </div>
             <div>
               <p>
-                Ever heard of the International Leadership Training Program
-                (ILTP)? Well, I built their website using ReactJS! It's this
-                cool volunteer organization based in the US. Here's the kicker:
-                I tackled the whole website backend myself, since I was still
-                learning about Headless CMS. That was quite the adventure, let
-                me tell you. But hey, the result? A snazzy website that
-                showcases my problem-solving skills, adaptability, and
-                commitment to creating awesome user experiences.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
             <div className="flex space-x-4 mt-3">
@@ -147,7 +143,7 @@ const Projects = () => {
           </div>
           <div className="flex flex-col items-start justify-center px-0 md:px-7 text-base">
             <div className="text-2xl font-bold min-h-min mt-5 md:mt-0">
-              Ingredient Savvy
+              Project coming soon!
             </div>
             <div className="flex flex-wrap my-2 items-start justify-start">
               <span className="my-1 mr-2 px-3 max-w-max uppercase rounded-full tag-background-gradient text-darkest font-semibold">
@@ -171,14 +167,10 @@ const Projects = () => {
             </div>
             <div>
               <p>
-                Ever heard of the International Leadership Training Program
-                (ILTP)? Well, I built their website using ReactJS! It's this
-                cool volunteer organization based in the US. Here's the kicker:
-                I tackled the whole website backend myself, since I was still
-                learning about Headless CMS. That was quite the adventure, let
-                me tell you. But hey, the result? A snazzy website that
-                showcases my problem-solving skills, adaptability, and
-                commitment to creating awesome user experiences.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
             <div className="flex space-x-4 mt-3">
