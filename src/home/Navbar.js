@@ -80,7 +80,7 @@ const Navbar = (prop) => {
       </div>
       <nav className="flex items-center justify-between w-full px-7 lg:px-20 pt-2 text-base dark:bg-darkest z-30">
         {/* Logo and Name */}
-        <div className="flex items-center justify-center space-x-0 z-50">
+        <div className="flex items-center justify-center space-x-0 z-40">
           <img
             src={logo}
             alt=""

@@ -6,9 +6,18 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Error from "./Error";
+import Loader from "./Loader";
+import { motion, AnimatePresence } from "framer-motion";
 
 function App() {
   const [isDarkModeOn, setIsDarkModeOn] = useState(false);
+  const [ready, isReady] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      isReady(false);
+    }, 2000);
+  }, []);
 
   useEffect(() => {
     if (
@@ -53,20 +62,40 @@ function App() {
           <div
             className={`w-full h-auto bg-light text-veryDarkBlue text-lg dark:bg-darkest dark:text-light font-medium`}
           >
-            <RootLayout setDarkMode={DarkMode} darkModeSwitch={isDarkModeOn} />
+            <AnimatePresence>
+              {ready && (
+                <motion.div
+                  key="loader"
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity:0, y: -700 }}
+                  transition={{ type: "spring", duration: 0.5 }}
+                >
+                  <Loader />
+                </motion.div>
+              )}
+              {!ready && (
+                <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{ duration: 0.5 }} key="root">
+                  <RootLayout
+                    setDarkMode={DarkMode}
+                    darkModeSwitch={isDarkModeOn}
+                    layout
+                  />
+                </motion.div>
+              )}
+            </AnimatePresence>
           </div>
         </div>
       ),
-      errorElement: <Error/>,
+      errorElement: <Error />,
       children: [
-        { index: true, element: <Home darkModeSwitch={isDarkModeOn}/> },
-        { path: 'about', element: <About /> },
-        { path: 'projects', element: <Projects /> },
-        { path: 'contact', element: <Contact /> },
+        { index: true, element: <Home darkModeSwitch={isDarkModeOn} /> },
+        { path: "about", element: <About /> },
+        { path: "projects", element: <Projects /> },
+        { path: "contact", element: <Contact /> },
       ],
     },
   ]);
-  
+
   return (
     <div className={`${isDarkModeOn && "dark "}`}>
       <div
