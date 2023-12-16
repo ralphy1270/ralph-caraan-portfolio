@@ -53,14 +53,10 @@ const Projects = () => {
             </div>
             <div>
               <p>
-                Ever heard of the International Leadership Training Program
-                (ILTP)? Well, I built their website using ReactJS! It's this
-                cool volunteer organization based in the US. Here's the kicker:
-                I tackled the whole website backend myself, since I was still
-                learning about Headless CMS. That was quite the adventure, let
-                me tell you. But hey, the result? A snazzy website that
-                showcases my problem-solving skills, adaptability, and
-                commitment to creating awesome user experiences.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
             <div className="flex space-x-4 mt-3">
