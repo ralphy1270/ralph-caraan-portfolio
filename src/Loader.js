@@ -1,9 +1,9 @@
-import loadgif from "./assets/images/loadgif.gif";
+import loadgif from "./assets/images/loader-icon8.png";
 
 const Loader = () => {
   return (
     <div className="fixed flex items-center justify-center w-full h-screen bg-black z-50">
-      <img className="w-16" src={loadgif} alt="Loader" />
+      <img className="animate-spin w-16" src={loadgif} alt="Loader" />
     </div>
   );
 };
