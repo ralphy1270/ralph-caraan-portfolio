@@ -67,8 +67,8 @@ function App() {
                 <motion.div
                   key="loader"
                   animate={{ opacity: 1, x: 0 }}
-                  exit={{ opacity:0, x: -700 }}
-                  transition={{ type: "spring", duration: 0.5 }}
+                  exit={{ opacity:0, x: -1500 }}
+                  transition={{ type: "tween", duration: 0.5 }}
                 >
                   <Loader />
                 </motion.div>
