@@ -29,7 +29,7 @@ const Projects = () => {
           </div>
           <div className="flex flex-col items-start justify-center md:px-7 text-base">
             <div className="text-2xl font-bold min-h-min mt-5 md:mt-0">
-              Ingredient Savvy
+              Project coming soon!
             </div>
             <div className="flex flex-wrap my-2 items-start md:justify-start">
               <span className="my-1 mr-2 px-3 max-w-max uppercase rounded-full tag-background-gradient text-darkest font-semibold">
