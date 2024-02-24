@@ -7,7 +7,7 @@ const Section = (prop) => {
   return (
     <Fragment>
       {/* Introduction */}
-      <section className="w-full dark:bg-darkest font-bodyFont mb-10 lg:mb-0">
+      <section className="w-full h-screen dark:bg-darkest font-bodyFont mb-10 lg:mb-0">
         <div className="flex flex-col-reverse mx-7 md:space-y-0 space-y-10 md:mx-14 lg:mx-20 pb-2 pt-10 lg:pt-8 items-center lg:items-start lg:justify-between lg:flex-row lg:pb-0">
           <div className="flex flex-col items-center text-center lg:text-left lg:items-start justify-center pt-4 mt-16 lg:pt-0 lg:w-1/2">
             <div className="tag-gradient-highlighted text-veryDarkBlue font-bold text-base uppercase max-w-fit px-3 border border-lightBlue lg:mb-4 rounded-full">
